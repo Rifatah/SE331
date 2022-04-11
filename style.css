@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Playfair Display', serif;
+}
 .navbar{
     display: flex;
     align-items: center;
@@ -59,7 +62,15 @@ p{
     padding: 8px 30px;
     margin: 30px 0;
     border-radius: 35px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #b97d7d;
+
 }
 .header{
     background: radial-gradient(rgb(221, 211, 211),#e9d6d6);
+}
+.header .row{
+    margin-top: 70px;
 }
