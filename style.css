@@ -112,3 +112,16 @@ h4{
 .col-4:hover{
     transform: translateY(-5px);
 }
+.testimonial{
+    padding-top: 100px;
+
+}
+.testimonial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+}
+.testimonial .col-3 img{
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 10%;
+}
